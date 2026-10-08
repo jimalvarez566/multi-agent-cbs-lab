@@ -1,0 +1,22 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+test-results/
+playwright-report/
+.idea/
+.vscode/
+
+# Markdown: only the README is published
+*.md
+!README.md
+!docs/
+!docs/screenshot.jpg
+
+# Superseded by README.md
+README.txt
